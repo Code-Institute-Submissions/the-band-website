@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/*width used to align center nav links*/
+.navbar-nav {
+    width: 100%;
+   
+}
+
