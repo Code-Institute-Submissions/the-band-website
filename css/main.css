@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 body {
     margin: 0;
     padding: 0;
@@ -10,14 +13,104 @@ body {
 }
 
 
-
+/*-------------navegation---------------*/
 /*width used to align center nav links*/
 .navbar-nav {
     width: 100%;
-   
+}
+    
+.bg-dark {
+    background-color: #3e668e!important;
 }
 
-/*.container-members {*/
-/*    display: flex;*/
-    /*margin: auto;*/
-/*}*/
+.fa.fa-home {
+    font-size: 150%;
+    margin: auto;
+    padding: 0;
+    color: cornsilk;
+}
+
+/*-------------main section---------------*/
+
+.carousel-item {
+    height: 80vh;
+}
+
+h1, h2, h3, h4, h5 {
+	text-transform: uppercase;
+	text-align: center;
+	opacity: 0.8;
+	padding: 10px;
+	font-weight:800;
+	font-family: 'Oswald', sans-serif;
+}
+
+body p {
+	color: rgb(82, 57, 57);
+	text-align: justify;
+}
+
+.playlist_bg_cover {
+	background-color: rgb(236, 236, 236);
+	max-width: 100%;
+}
+
+.playlist {
+	display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.col-8 {
+	padding: 0;
+}
+
+.col-4  {
+	margin-left: auto;
+	 margin-right: auto;
+	 width: 30%;
+}
+
+.playlist_heading {
+	font-size: 22px;
+	text-transform: uppercase;
+	color: rgb(175, 175, 175);
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.headphone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-------------section tour---------------*/
+
+
+
+/*-------------footer---------------*/
+.footer {
+    background-color: #3e668e;
+    width: 100%;
+    height: 150px;
+}
+
+.social-midia {
+	text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 35px;
+  margin: 15px;
+  color: cornsilk;
+}
+
+/*
+
+h6 {
+    color: #bdc5ca;
+    font-size: 2em;
+}
