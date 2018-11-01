@@ -47,8 +47,10 @@ h1, h2, h3, h4, h5 {
 
 body p {
 	color: rgb(82, 57, 57);
-	text-align: justify;
+	text-align: -webkit-auto;
 }
+
+/*-------------playlist---------------*/
 
 .playlist_bg_cover {
 	background-color: rgb(236, 236, 236);
@@ -87,6 +89,35 @@ body p {
     margin-right: auto;
 }
 
+/*-------------the band members-----------*/
+.toggle-panel-trigguer {
+    cursor: pointer;
+    color: #0e6bc7;
+}
+
+.toggle-panel-trigguer:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+.toggle-panel-trigguer::before {
+    content: '+ ';
+    padding-right: 5px;
+}
+
+
+.toggle-panel-content-container {
+    overflow: hidden;
+    height: 0px;
+}
+
+.toggle-panel-content {
+    padding: 1px 0;
+}
+.open .toggle-panel-trigguer::before {
+    content: '\2015 ';
+ }
+ 
 /*-------------section tour---------------*/
 
 .tour {
@@ -143,8 +174,17 @@ h6 {
 
 .fa {
   padding: 5px;
-  font-size: 35px;
+  font-size: 30px;
   margin: 15px;
   color: cornsilk;
 }
+a:hover {
+    color: cornsilk;
+    text-decoration: none;
+}
 
+.fa-font-size {
+   font-size: 45px;
+   color: cornsilk;
+   
+}
