@@ -50,6 +50,44 @@ body p {
 	text-align: -webkit-auto;
 }
 
+/*-------------the band members-----------*/
+.bandBgColor {
+    background-color: #dee1e6;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.img-fluid .border-img {
+    border: 20px;
+}
+
+.toggle-panel-trigguer {
+    cursor: pointer;
+    color: #0e6bc7;
+}
+
+.toggle-panel-trigguer:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+.toggle-panel-trigguer::before {
+    content: '+ ';
+    padding-right: 5px;
+}
+
+
+.toggle-panel-content-container {
+    overflow: hidden;
+    height: 0px;
+}
+
+.toggle-panel-content {
+    padding: 1px 0;
+}
+.open .toggle-panel-trigguer::before {
+    content: '\2015 ';
+ }
+
 /*-------------playlist---------------*/
 
 .playlist_bg_cover {
@@ -89,34 +127,7 @@ body p {
     margin-right: auto;
 }
 
-/*-------------the band members-----------*/
-.toggle-panel-trigguer {
-    cursor: pointer;
-    color: #0e6bc7;
-}
 
-.toggle-panel-trigguer:hover {
-    color: #555;
-    text-decoration: underline;
-}
-
-.toggle-panel-trigguer::before {
-    content: '+ ';
-    padding-right: 5px;
-}
-
-
-.toggle-panel-content-container {
-    overflow: hidden;
-    height: 0px;
-}
-
-.toggle-panel-content {
-    padding: 1px 0;
-}
-.open .toggle-panel-trigguer::before {
-    content: '\2015 ';
- }
  
 /*-------------section tour---------------*/
 
