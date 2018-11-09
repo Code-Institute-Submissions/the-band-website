@@ -1,9 +1,9 @@
-#The Best Rock Band of all Times
+# The Best Rock Band of all Times
     
     A project created for the Queen, a Rock band, so that they can show their music and present themselves to the world. 
     The main objective was to focus in the use of HTML and CSS.
 
-##UX
+## UX
 
 This website is for the fans of the Queen, for the ones that already know their music but wants to know a bit more of how they got together and their origins.
 
@@ -14,7 +14,7 @@ This website is for the fans of the Queen, for the ones that already know their 
     .The fans can follow their idols in the major social media.
     .Not only the fans but everyone can have access to all the contents described and get in touch with the band as well no matter if you use a mobile phone, tablet or desktop.
    
-####Features
+#### Features
 
     .In the music gallery you can access the playlist audio player to listen to the songs.
     .Watch the band concert direct on Youtube from the video gallery.
@@ -24,13 +24,13 @@ This website is for the fans of the Queen, for the ones that already know their 
     .Contact the band using the contact form placed at the bottom page of the website.
 
 
-####Features Left to Implement
+#### Features Left to Implement
 
     .A blog where the fans can interact with other fans around the world.
     .Expanding the audio playlist adding Spotify to stream more music’s.
     .Add a Shop category where fans can buy Queen’s merchandising.
 
-###Technologies Used
+### Technologies Used
     
     .<a href="https://html.com/semantic-markup/#What_is_Semantic_Markup">HTML5</a>
         
@@ -52,25 +52,25 @@ This website is for the fans of the Queen, for the ones that already know their 
         
         Framework used to created an responsive website.
         
-###Testing
+### Testing
 
 
 
 
-###Deployment
-
-
-
-
-
+### Deployment
 
 
 
 
 
-###Credits
 
-####Content
+
+
+
+
+### Credits
+
+#### Content
 
     .The text for the main content section were obtained from the <a href="https://www.theguardian.com/uk" The Guardian>website.</a> 
         
@@ -81,7 +81,7 @@ This website is for the fans of the Queen, for the ones that already know their 
             https://www.biography.com/people/roger-taylor-21213223
             https://www.biography.com/people/brian-may-20970809
             https://www.biography.com/people/john-deacon-21213183
-####Media
+#### Media
 
     .The photos used in this website were obtained from different sources.
     
@@ -93,14 +93,14 @@ This website is for the fans of the Queen, for the ones that already know their 
             
             
   
-####Acknowledgements
+#### Acknowledgements
 
     .I received inspiration for this project from the <a href="http://www.queenonline.com/">Queen offial Webite.</a> #The Best Rock Band of all Times
 
 A project created for the Queen, a Rock band, so that they can show their music and present themselves to the world. 
 The main objective was to focus in the use of HTML and CSS.
 
-##UX
+## UX
 
 This website is for the fans of the Queen, for the ones that already know their music but wants to know a bit more of how they got together and their origins.
 
