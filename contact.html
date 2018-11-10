@@ -71,6 +71,7 @@
         
         <section class="contact">
             <h1>contact us</h1>
+            <p class="book-us"><strong><em>Why not book us for your private event! All you have to do is fill out the form and we will get in touch.</em></strong></p>
             <div class="container">
                 <form>
                     <div class="row">
@@ -78,7 +79,7 @@
                             <label for="fname">First Name</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.."required>
                         </div>
                     </div>
                     <div class="row">
@@ -86,7 +87,25 @@
                             <label for="lname">Last Name</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name.."required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="Email" name="Email" placeholder="Your Email" required>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="Option">Event</label>
+                        </div>
+                        <div class="col-75 input_option"required>
+                            <input type="radio" name="optradio" checked>Concert
+                            <input type="radio" name="optradio">Wedding
+                            <input type="radio" name="optradio">Christmas Partie
                         </div>
                     </div>
                     <div class="row">
@@ -94,11 +113,13 @@
                             <label for="subject">Subject</label>
                         </div>
                         <div class="col-75">
-                            <textarea id="subject" name="subject" placeholder="Leave your message.." style="height:200px"></textarea>
+                            <textarea id="subject" name="subject" placeholder="Leave your message.." style="height:200px"required></textarea>
                         </div>
                     </div>
                     <div class="row">
-                      <input type="submit" value="Submit">
+                        <div class="col-25">
+                            <input type="submit" value="Submit">
+                        </div>
                     </div>
                 </form>
             </div>
@@ -143,7 +164,7 @@
         <!--footer-->
         <footer class="footer">
             <div class="row">
-                <div class="col-sm-6 social-media">
+                <div class="col-sm-12 social-media">
                     <h6>Follow Us</h6>
                     <a href="https://www.facebook.com/Queen" target="blank" class="fa fa-facebook"></a>
                     <a href="https://twitter.com/queenwillrock" target="blank" class="fa fa-twitter"></a>
