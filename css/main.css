@@ -20,11 +20,12 @@ body {
 }
 
 
-.carousel-item {
-    height: 80vh;
-   
-}
-    
+.carousel-item  {
+     max-height: 80%;
+     max-height: 80vh;
+ }
+
+
     
     
 .bg-dark {
@@ -287,31 +288,30 @@ input[type=submit]:hover {
 
 /*-------------Media Queries---------------*/
 
-@media(max-width:767px) {
+@media(max-width: 767px) {
 
-	.headphone {
-        width: 35%;
-    }
-   
-	.footer {
-		display:block;
-		height:fit-content
+	#container {
+		width:95%;
 	}
 
-	.social-media {
-		text-align: center;
-
+	body {
+		background-color:#f8f9fa
 	}
 
-	h1 {
-      	font-size:25px;
+
+	body p {
+		font-size:medium;
 	}
 
-	h2, h3, h4 {
-		font-size:20px;
-	}
+	.carousel-item  {
+    	margin-top: 15%;
 
-	
+ }
+
+	h1, h2, h3, h4 {
+		font-size: 20px;
+		margin: auto;
+	}
 
 	h6 {
         color: #bdc5ca;
@@ -319,28 +319,75 @@ input[type=submit]:hover {
         margin-left: 20px
     }
 
-    .fa {
+    .col-md-6 {
+    	padding-top: 15px;
+    }
+
+    .playlist_heading {
+    	font-size: 1em;
+    	background-color:aliceblue;
+    	color:black
+    }
+
+	.headphone {
+		width: 30%;
+		margin-top: 20px;
+
+	}
+		
+	.card-body {
+		height: 100px;
+		padding: 7px 0 7px 0
+	}
+
+	.card-body h5 {
+		font-size: 15px;
+		padding: 0;
+		margin:auto;
+		color:#524943;
+		font-weight:800;
+
+	}
+
+	.card-body p {
+		font-size: 12px;
+		font-weight:300;
+		color:#010101
+
+	}
+
+
+    .footer {
+    	height:fit-content;
+    }
+
+	.fa {
         padding: 0px;
         font-size: 25px;
         margin: 10px;
         color: cornsilk;
     }
 
-/* contact form */
+    /* contact form */
 
  .col-25, .col-75, input[type=submit] {
         width: 100%;
         margin-top: 0;
     
     }
-
+    
 }
+
 
 /*video*/
 
-@media(min-width:768px) {
+@media(min-width:768px) and (max-width:991px) {
 
-	.embed-responsive {
-		position: unset;
+		.embed-responsive {
+			position: unset;
     }
+
 }
+
+
+
