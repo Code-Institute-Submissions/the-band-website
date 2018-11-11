@@ -18,6 +18,14 @@ body {
 .navbar-nav {
     width: 100%;
 }
+
+
+.carousel-item {
+    height: 80vh;
+   
+}
+    
+    
     
 .bg-dark {
     background-color: #3e668e!important;
@@ -32,10 +40,7 @@ body {
 
 /*-------------main section---------------*/
 
-.carousel .item {
-    max-width: 100%; 
-    max-height: 100vh; 
-}
+
 
 h1, h2, h3, h4, h5 {
 	text-transform: uppercase;
@@ -60,7 +65,7 @@ body p {
     background-color: #dee1e6;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    
+   
 }
 .img-fluid .border-img {
     border: 20px;
@@ -114,12 +119,15 @@ body p {
 
 
 .playlist_heading {
+    margin: auto;
+    width: 80%;
 	font-size: 22px;
 	text-transform: uppercase;
 	background-color: rgb(236, 236, 236);
 	color: rgb(175, 175, 175);
 	font-family: 'Roboto', sans-serif;
     text-align: center;
+    border-radius: 50px;
 }
 
 .headphone {
@@ -127,7 +135,6 @@ body p {
     margin-left: auto;
     margin-right: auto;
 }
-
 
  
 /*-------------section tour---------------*/
@@ -200,9 +207,9 @@ a:hover {
 }
 
 .fa-font-size {
-   font-size: 45px;
+   font-size: 350%;
    color: cornsilk;
-   
+   transition: 0.5s ease-in-out;
 }
 
 * {

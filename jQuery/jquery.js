@@ -8,8 +8,8 @@ $(document).ready(function(){
         $(this).removeClass("fa-font-size");
     });
     
-    
-    
+    // toggle painel  
+   
     $('.toggle-panel').each(function(){
         var link_text = $(this).attr('data-link-text');
         var content = $(this).html();
