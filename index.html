@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div id="container">
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -31,7 +31,7 @@
                           <a class="nav-link" href="#tour">Tour</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact</a>
+                          <a class="nav-link" href="/contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -82,14 +82,14 @@
             </blockquote>
         </section>
         <!--the band members-->
-        <section class="img-fluid border-img bandBgColor">
-            <h2><a id="the_band"></a>the band members</h2>
+        <section id="the_band" class="img-fluid border-img bandBgColor">
+            <h2>the band members</h2>
             <div class="row">
                 <div class="col-md-3 freddie">
-                    <img class="img-fluid" src="pictures/freddie_mercury.jpg" alt="Freddie Mercury">
+                    <img class="img-fluid bdMenber" src="pictures/freddie_mercury.jpg" alt="Freddie Mercury">
                     <div class="freddieM">
                         <blockquote class="blockquote">
-                            <p>Freddie Mercury was born Farrokh Bulsara on September 5, 1946, in Zanzibar, Tanzania. As the frontman of Queen, Freddie Mercury was one of the most talented and innovative singers of the rock era...</p>
+                            <p>Freddie Mercury, singer-songwriter and musician. He was born Farrokh Bulsara on September 5, 1946, in Zanzibar, Tanzania. As the frontman of Queen, Freddie was one of the most talented and innovative singers of the rock era...</p>
                             <div class="toggle-panel" data-link-text="Read More">
                                 <p>He spent time in a boarding school in Bombay, India, where he studied piano. It was not long before this charismatic young man joined his first band, the Hectics.</p>
                                 <p>Moving to London with his family in the 1960s, Mercury attended the Ealing College of Art. He befriended a number of musicians around this time, including future bandmates, drummer Roger Taylor and guitarist Brian May.</p>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 brian">
-                    <img class="img-fluid" src="pictures/brian_may.jpg"  alt="Brian May">
+                    <img class="img-fluid bdMenber" src="pictures/brian_may.jpg"  alt="Brian May">
                     <div class="brianM">
                         <blockquote class="blockquote">
                             <p>Brian Harold May was born on July 19, 1947, in Hampton, Middlesex, England, to parents Ruth and Harold May. An imaginative teen, May, with the help of his father, built his own homemade guitar, dubbed "The Red Special"...</p>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 roger">
-                    <img class="img-fluid" src="pictures/roger_taylor.jpg" alt="Roger Taylor">
+                    <img class="img-fluid bdMenber" src="pictures/roger_taylor.jpg" alt="Roger Taylor">
                     <div class="rogerT">
                         <blockquote class="blockquote">
                             <p>Roger Meddows Taylor was born on July 26, 1949, in the seaport town of King's Lynn, part of England's Norfolk county. During his youth, Taylor developed a passion for multi-instrumentalism playing the ukulele and...</p>
@@ -128,7 +128,7 @@
                     </div>
                 </div> 
                 <div class="col-md-3 john">
-                    <img class="img-fluid" src="pictures/john_deacon.jpg" alt="john Deacon">
+                    <img class="img-fluid bdMenber" src="pictures/john_deacon.jpg" alt="john Deacon">
                     <div class="johnD">
                         <blockquote class="blockquote">
                             <p>John Richard Deacon was born on August 19, 1951, in Leicester, England. As a child, he developed a passion for electronics while also taking up music, heaving influenced by the Beatles. He started playing guitar...</p>
@@ -144,9 +144,9 @@
             </div>
         </section>
         <!--you tube video-->
-        <div class="container playlist_bg_cover">
-            <h3><a id="media"></a>some of our best songs</h3>
-            <p class="shortDescPar"><em><strong>In the gallery you have access to our channel on Youtube to watch all of our greatest videos of all times. From the playlist you can listen to some of our best hits</em></strong></p>
+        <section id="media" class="container playlist_bg_cover navPadding">
+            <h3>some of our best songs</h3>
+            <p class="shortDescPar"><em><strong>From this gallery you can have access to our channel on Youtube where you can watch all of our greatest videos of all times or listen to our best hits from the playlist</em></strong></p>
             <div class="row">
                 <div class="col-md-6">
                     <div class="embed-responsive embed-responsive-1by1">
@@ -185,10 +185,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!--tour section-->
-        <section class="tour">
-            <h4><a id="tour"></a>tour dates</h4>
+        <section id="tour" class="tour">
+            <h4>tour dates</h4>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
