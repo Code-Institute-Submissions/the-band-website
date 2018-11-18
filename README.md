@@ -51,32 +51,32 @@ The wireframe created for this project can be accessed here...  <a href="https:/
 
 
 ## Technologies Used
-	<a href="https://dev.w3.org/html5/html-author/">HTML</a> 
-		Markup language for the structure and presentation of the contents.
-		
-	<a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a>
-		To add style to the web documents
-		
-	<a href="https://jquery.com/">JQuery</a>
-		To simplify the DOM manipulation.
+<a href="https://dev.w3.org/html5/html-author/">HTML </a>
+	- Markup language for the structure and presentation of the contents.
 
-	<a href="https://getbootstrap.com/">Bootstrap</a>
-		For responsive grid layout.
+<a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a>
+	- To add style to the web documents
+		
+<a href="https://jquery.com/">JQuery</a>
+	- To simplify the DOM manipulation.
+
+<a href="https://getbootstrap.com/">Bootstrap</a>
+	- For responsive grid layout.
 
 
 ## Testing
 
-	The website was tested in all the major browsers including Google Chrome, Safari and Internet Explorer to confirm compatibility. 
+The website was tested in all the major browsers including Google Chrome, Safari and Internet Explorer to confirm compatibility. 
 	
-	I have conducted tests in virtual mode using the google developer tools and also physical mobile phones including Nokia, Samsung Galaxy, HtcM8, Samsung Tablet S4 and IPhone to check compatibility. In all devices the design and functionalities are at the highest standards level. 
+I have conducted tests in virtual mode using the google developer tools and also physical mobile phones including Nokia, Samsung Galaxy, HtcM8, Samsung Tablet S4 and IPhone to check compatibility. In all devices the design and functionalities are at the highest standards level. 
 	
-	I have used the https://validator.w3.org/ to validate the HTML code and corrected all error or warning messages. 
+I have used the https://validator.w3.org/ to validate the HTML code and corrected all error or warning messages. 
 	
-	I have uploaded the CSS file to https://jigsaw.w3.org/css-validator/validator to check for any error and the result was clear, no error was detected. 
+I have uploaded the CSS file to https://jigsaw.w3.org/css-validator/validator to check for any error and the result was clear, no error was detected. 
 	
-	The form on contact us page was also tested to insure the user fills all the required fields before submitting the form. 
+The form on contact us page was also tested to insure the user fills all the required fields before submitting the form. 
 	
-	At this stage, no bugs or problems related to the website functionality were detected. 
+At this stage, no bugs or problems related to the website functionality were detected. 
 
 
 ## Deployment
@@ -93,22 +93,22 @@ https://luciano-lima.github.io/the-band-website/
 
 ### Content
 
-•	The text for the main content and for each band member on this project was obtained from the Biography website.
+•	The text for the main content and for each band member on this project was obtained from the <a href="https://www.biography.com/people/freddie-mercury-9406228">Biography</a> website.
 
-•	Freddie Mercury picture as obtained from   1stdibs website.
+•	Freddie Mercury picture as obtained from  <a href="https://www.1stdibs.co.uk/art/photography/black-white-photography/david-plastik-freddie-mercury-singing-on-stage-fine-art-print/id-a_2598821/">1stdibs</a> website.
 
-•	Brain May picture was obtained from WordPress website
+•	Brain May picture was obtained from <a href="https://queenphotos.wordpress.com/2013/10/09/brian-i-want-it-all/">WordPress</a> website.
 
-•	Roger Taylor picture was obtained from Last.fm website
+•	Roger Taylor picture was obtained from <a href="https://www.last.fm/music/Roger+Taylor/+images/a376cb34c7764af086178acaf923e11d">Last.fm</a> website.
 
-•	John Deacon picture was obtained from Pinterest website.
+•	John Deacon picture was obtained from <a href="https://www.pinterest.co.uk/pin/468726273694533332/">Pinterest</a> website.
 
 
 ### Media
 
 •	The video and audio was obtained from YouTube
 
-•	The JQuery smooth scrolling code when clicking on navigation menu was obtained from Ray Villalobos planetoftheweb.
+•	The JQuery smooth scrolling code when clicking on navigation menu was obtained from <a href="https://github.com/planetoftheweb">Ray Villalobos planetoftheweb.</a>
 
 •	The JQuery toggle panel code in the band section was obtained from Chris converse on Lynda.com
 
