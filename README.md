@@ -115,5 +115,5 @@ https://luciano-lima.github.io/the-band-website/
 
 ### Acknowledgments 
 
-•	I received inspiration for this project from the Queen official website.
+•	I received inspiration for this project from the <a href="http://www.queenonline.com/">Queen official website.</a>
  
