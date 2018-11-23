@@ -22,6 +22,10 @@ body {
     background-color: #3e668e!important;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(254, 249, 227);
+}
+
 .fa.fa-home {
     font-size: 150%;
     margin: auto;
@@ -56,16 +60,24 @@ body p {
 	text-align: -webkit-auto;
 }
 
+.about-the-band .blockquote p {
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
 .shortDescPar {
     text-align-last:center;
     opacity: .8;
     padding: 0 50px 0 50px;
 }
 
-.blockquote {
-    margin-bottom: 1rem;
-    font-size: 1.25rem;
-   
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #6c757d;
+    opacity: 0.7;
+    padding-right: 5px;
 }
 
 .col-md-3 .blockquote p {
@@ -320,7 +332,7 @@ input[type=submit]:hover {
 
 @media(max-width: 767px) {
     #container {
-		width:95%;
+		width:100%;
 	}
 
 	body {
@@ -409,7 +421,7 @@ input[type=submit]:hover {
 @media(min-width:768px) and (max-width:991px)  {
 
 	#container {
-		width:95%;
+		width:100%;
 	}
 
     .embed-responsive {
@@ -418,6 +430,10 @@ input[type=submit]:hover {
 
 }
 @media(min-width:992px) and (max-width:1800px)  {
+    
+        #container {
+		width:100%;
+	}
     
 	    .embed-responsive {
 		display: contents;
